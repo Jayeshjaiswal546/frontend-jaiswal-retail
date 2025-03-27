@@ -1,0 +1,1 @@
+exports.backendBaseUrl = 'http://localhost:8000';
