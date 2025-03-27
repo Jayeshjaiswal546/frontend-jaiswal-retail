@@ -1,15 +1,21 @@
 
 import { createSlice } from '@reduxjs/toolkit'
+// const initialState = {
+//     cartArray: JSON.parse(localStorage.getItem('jaiswal-retail-userCart'))??[],
+//     cartSummary: {
+//         deliveryChg: 0,
+//         securedShippingFee: 29,
+//     }
+// }
 const initialState = {
-    cartArray: JSON.parse(localStorage.getItem('jaiswal-retail-userCart'))??[],
+    cartArray: typeof window !== "undefined" 
+        ? JSON.parse(localStorage.getItem('jaiswal-retail-userCart')) ?? [] 
+        : [],
     cartSummary: {
-        // mrpTotal: 0,
-        // discountAmt: 0,
         deliveryChg: 0,
         securedShippingFee: 29,
-        // finalAmtToPay: mrpTotal-discountAmt+deliveryChg+securedShippingFee,
     }
-}
+};
 
 export const cartSlice = createSlice({
     name: 'cart',
