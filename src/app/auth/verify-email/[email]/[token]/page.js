@@ -9,7 +9,7 @@ import Link from 'next/link';
 import { CircularProgress } from '@mui/material';
 
 
-export default function page() {
+export default function VerifyEmail() {
     const params = useParams();
     const email = decodeURIComponent(params.email);
     const token = params.token;

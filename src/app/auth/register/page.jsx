@@ -14,7 +14,7 @@ import { toast, ToastContainer } from 'react-toastify';
 
 // const provider = new GoogleAuthProvider();
 
-export default function page() {
+export default function Register() {
   const router = useRouter()
   let [isRegisterBtnClicked, setRegisterBtnClicked] = useState(false);
   // const auth = getAuth(app);

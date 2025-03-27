@@ -5,7 +5,7 @@ import { app } from '@/config/firebaseConfig';
 
 const provider = new GoogleAuthProvider();
 
-export default function page() {
+export default function TestGoogleLogin() {
     const auth = getAuth(app);
 
     let handleGoogleLogin = () => {

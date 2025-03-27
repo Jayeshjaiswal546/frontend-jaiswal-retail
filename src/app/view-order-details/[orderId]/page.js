@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react'
 import { FaCheck } from 'react-icons/fa'
 import { toast, ToastContainer } from 'react-toastify';
 
-export default function page() {
+export default function ViewOrderDetails() {
     let { orderId } = useParams();
     let [orderDetails, setOrderDetails] = useState();
     let router = useRouter();

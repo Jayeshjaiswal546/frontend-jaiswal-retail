@@ -4,7 +4,7 @@ import React from 'react'
 import { MdEmail } from "react-icons/md";
 
 
-export default function page() {
+export default function PleaseVerifyEmail() {
     let param = useParams();
     console.log(param);
     return (

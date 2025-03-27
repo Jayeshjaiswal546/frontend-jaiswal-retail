@@ -10,7 +10,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default function page() {
+export default function Products() {
 
     let [productArray, setProductArray] = useState([]);
     let [categoryArray, setCategoryArray] = useState([]);

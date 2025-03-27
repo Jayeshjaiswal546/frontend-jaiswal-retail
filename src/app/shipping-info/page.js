@@ -9,7 +9,7 @@ import { backendBaseUrl } from '../api/api';
 import { calculateSummary } from '../cart/page';
 import { showSpinner } from '../functions/respondToUser';
 
-export default function page() {
+export default function ShippingInfo() {
     let router = useRouter();
     const cart = useSelector((state => state.cart.cartArray));
     const cartSummary = useSelector((state => state.cart.cartSummary));

@@ -9,7 +9,7 @@ import { UpdateCartOnServer } from '../products/page';
 import { showSpinner } from '../functions/respondToUser';
 import { backendBaseUrl } from '../api/api';
 
-export default function page() {
+export default function Cart() {
     const user = useSelector((state) => state.user.token);
     const cart = useSelector((state => state.cart.cartArray));
     let [isProccedClicked, setIsProceedClicked] = useState(false);

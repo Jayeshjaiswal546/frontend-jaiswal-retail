@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/input-otp"
 import { REGEXP_ONLY_DIGITS } from 'input-otp'
 
-export default function page() {
+export default function TestShadcnOtp() {
     const [value, setValue] = React.useState("")
     const hanldeSubmit = (event) => {
         event.preventDefault();

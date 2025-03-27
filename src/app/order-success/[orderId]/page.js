@@ -6,7 +6,7 @@ import { useParams, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
 import { FaCheck } from 'react-icons/fa'
 
-export default function page() {
+export default function OrderSuccess() {
     let { orderId } = useParams();
     let [orderDetails, setOrderDetails] = useState();
     let router = useRouter();

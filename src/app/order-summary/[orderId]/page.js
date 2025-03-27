@@ -12,7 +12,7 @@ import { showSpinner } from '@/app/functions/respondToUser';
 import { useRazorpay, RazorpayOrderOptions } from "react-razorpay";
 import { UpdateCartOnServer } from '@/app/products/page';
 
-export default function page() {
+export default function OrderSummary() {
     const user = useSelector((state) => state.user.token);
     const cart = useSelector((state => state.cart.cartArray));
     let [orderDetails, setOrderDetails] = useState();

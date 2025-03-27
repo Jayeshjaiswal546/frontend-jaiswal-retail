@@ -25,7 +25,7 @@ import { setCart } from '@/app/redux/reducers/cartSlice';
 
 
 
-export default function page() {
+export default function Login() {
     let [otp, setOtp] = useState("");
     let [isLoginClicked, setLoginClicked] = useState(false);
     let [isVerifyOtpClicked, setVerifyOtpClicked] = useState(false);

@@ -11,7 +11,7 @@ import axios from 'axios';
 import { backendBaseUrl } from '../api/api';
 import OrderStatusSteppers from '../MUIComponents/stepper/page';
 
-export default function page() {
+export default function MyOrders() {
     const user = useSelector((state) => state.user.token);
     let [ordersArray, setOrdersArray] = useState([]);
 
