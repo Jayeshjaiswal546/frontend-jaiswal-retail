@@ -2,6 +2,6 @@
 
 
 // exports.backendBaseUrl = 'https://server-jaiswal-retail-production.up.railway.app';
-exports.backendBaseUrl = 'server-jaiswal-retail-production-2619.up.railway.app';
+exports.backendBaseUrl = 'https://server-jaiswal-retail-production-2619.up.railway.app';
 
 
